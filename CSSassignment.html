@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS class</title>
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/add-r.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/file.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/eye-alt.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/cloud.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/code-climate.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/circleci.css' rel='stylesheet'>
+
+    <style>
+        :root{
+            --tile-width:90%;
+            --tile-width-cal:calc(var(--tile-width)/3);
+        }
+
+        .bgcolor{
+            background: linear-gradient(0deg, #ffb99a 0%, #ffdbc5 100%);
+            margin: 10px;
+            
+        }
+
+        .div{
+            border-radius: 17% 27% 27% 27% / 18% 25% 25% 25%; 
+            width: var(--tile-width-cal);
+            height: 400px;
+            background :linear-gradient(301deg, #e4406f 0%, #ca2374 50%, #9c297f 100%);
+            display: inline-block;
+            margin: 25px;
+            box-shadow: 8px 9.5px 8px -0.5px #858585;
+            border-top-width: 6px;
+            border-top-style: solid;
+        }
+
+        td{
+            padding: 5%;
+            font-size: 20px;
+        }
+
+        .table{
+            border-spacing: 5px;
+            margin: 18% 5%;
+            width: var(--tile-width);
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<container>
+    <div class="bgcolor">
+        <!-- first section -->
+        <div class="div" style="border-top-color:red;">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-file"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor sit amet.
+                    </td>
+                </tr>
+            </table>
+            
+            
+                       
+            
+        </div>
+        <div class="div" style="border-top-color:#0d49e0;">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-google"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="div" style="border-top-color:#ccaa00">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-eye-alt"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, excepturi.
+                    </td>
+                </tr>
+            </table> 
+            
+        </div>
+        <!-- END first section -->
+        <!-- second section -->
+        <div class="div" style="border-top-color:#4edcff">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-cloud"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor sit.
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="div" style="border-top-color:#fffc00">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-code-climate"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="div" style="border-top-color:#0048a5">
+            <table class="table">
+                <tr>
+                    <td align="center"><i class="gg-circleci"></i></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        <!-- END second section -->
+    </div>
+</container>
+
+<div>
+    <a href="./Index.html" align="right">Home</a>
+</div>
+    
+</body>
+</html>

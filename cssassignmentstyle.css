@@ -2,7 +2,7 @@
     --tile-width:90%;
     --tile-width-cal:calc(var(--tile-width)/3);
     --width-grid:var(--tile-width);
-    --height-grid:calc(var(var(--tile-width-cal)-50px)) 
+    --height-grid:calc(var(var(--tile-width-cal)-50px)); 
 
     --shade-1:red;
     --shade-2:#0d49e0;

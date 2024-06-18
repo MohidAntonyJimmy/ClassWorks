@@ -1,6 +1,9 @@
 :root{
     --tile-width:90%;
     --tile-width-cal:calc(var(--tile-width)/3);
+    --width-grid:var(--tile-width);
+    --height-grid:calc(var(var(--tile-width-cal)-50px)) 
+
     --shade-1:red;
     --shade-2:#0d49e0;
     --shade-3:#ccaa00;
@@ -27,8 +30,8 @@
 
 .grid .column{
     border-radius: 17% 27% 27% 27% / 18% 25% 25% 25%; 
-    width: 400px;
-    height: 300px;
+    width: var(--width-grid);
+    height: var(--height-grid);
     text-align: center;
     padding: 30px 0px;
     background :white;
@@ -42,9 +45,9 @@
 
 .column .content{            
     position: relative;
-    width: 400px;
-    height: 700;
-    margin: 40px 0;
+    width: var(--width-grid);
+    height: var(--height-grid);
+    margin: 40px 20px;
     font-family: consolas;
     padding: 20px 0px;
     display: flex;
